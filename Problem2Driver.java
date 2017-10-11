@@ -7,7 +7,7 @@ public class Problem2Driver implements Directions
 {
     public static void main(String args[])  {
         Problem2 sally = new Problem2(5,5,East,-1);
-        sally.plantBeepers();
+        sally.putDownBeepers();
         sally.turnOff();
         
     } 
